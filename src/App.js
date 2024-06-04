@@ -37,7 +37,7 @@ const App = () => {
         const subscription = await registration.pushManager.subscribe({
           userVisibleOnly: true,
           applicationServerKey: urlBase64ToUint8Array(
-            "BGSnZjlt_nPm2zQAOs-EWXU3eZB6drD-gUXC6WsS_It6TnTLyqrEcgoZYGEv03q2VdpURJPktS8mbxRoqFYWgjM"
+            "BAtNGPQV8pkKkT85eHzdHVLRiOJrU4mt3rr00qQmIpS4AXyKJUQclEjKYypEyEi9T4-sFGuWiXE8Zq0nEGnHZ7k"
           ),
         });
 
